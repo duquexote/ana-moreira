@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #F5EFE6;
+    color: #1a1a1a;
+  }
+
+  /* Offset for fixed header on anchor jumps */
+  section[id] {
+    scroll-margin-top: 80px;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
