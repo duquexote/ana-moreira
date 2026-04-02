@@ -1,17 +1,21 @@
+import { Wind, CloudRain, Sparkles, Users, Flame, Clock } from 'lucide-react'
 import { WHATSAPP_URL } from '../config'
 
 const topicsLeft = [
   {
+    Icon: Wind,
     title: 'Ansiedade',
     description:
       'Quando a preocupação não para e seu corpo vive em alerta — mesmo sem um motivo aparente. Atendo online para São Paulo e todo o Brasil.',
   },
   {
+    Icon: CloudRain,
     title: 'Depressão',
     description:
       'Aquela sensação de peso, vazio ou de que nada vai mudar. Não é fraqueza — é algo que tem tratamento com apoio especializado.',
   },
   {
+    Icon: Sparkles,
     title: 'Autoconhecimento',
     description:
       'Para quem quer entender melhor a si mesmo, seus padrões e o que realmente importa na sua vida.',
@@ -20,26 +24,34 @@ const topicsLeft = [
 
 const topicsRight = [
   {
+    Icon: Users,
     title: 'Relacionamentos',
     description:
       'Dificuldades com vínculos, comunicação, limites ou a sensação de se perder nas relações.',
   },
   {
+    Icon: Flame,
     title: 'Burnout e Trabalho',
     description:
       'Esgotamento, falta de motivação ou sensação de que o trabalho tomou conta de tudo. Sessões online que se encaixam na sua rotina.',
   },
   {
+    Icon: Clock,
     title: 'Procrastinação',
     description:
       'Quando você sabe o que precisa fazer, mas algo por dentro te impede de começar.',
   },
 ]
 
-const TopicCard = ({ title, description }) => (
-  <div className="bg-[#EDE5DC] rounded-xl p-5">
-    <h3 className="font-serif font-bold text-[#1a1a1a] mb-2 text-base">{title}</h3>
-    <p className="text-sm text-[#4A4A4A] leading-relaxed">{description}</p>
+const TopicCard = ({ title, description, Icon }) => (
+  <div className="bg-[#EDE5DC] rounded-xl p-5 flex gap-4 items-start">
+    <div className="flex-shrink-0 w-10 h-10 bg-white/60 rounded-lg flex items-center justify-center mt-0.5">
+      <Icon size={20} strokeWidth={1.6} color="#4A2410" />
+    </div>
+    <div>
+      <h3 className="font-serif font-bold text-[#1a1a1a] mb-1.5 text-base">{title}</h3>
+      <p className="text-sm text-[#4A4A4A] leading-relaxed">{description}</p>
+    </div>
   </div>
 )
 
@@ -53,13 +65,12 @@ export default function HelpAreas() {
             Posso te ajudar com
           </p>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#1a1a1a] leading-tight max-w-2xl mx-auto">
-            Você não precisa estar em crise para começar. Só precisa querer algo
-            diferente.
+            Você não precisa estar em crise para começar. Só precisa querer algo diferente.
           </h2>
         </div>
 
-        {/* Desktop: 3-col with center image */}
-        <div className="hidden md:grid grid-cols-[1fr_220px_1fr] gap-6 items-center mb-12">
+        {/* Desktop: cards | imagem | cards */}
+        <div className="hidden md:grid grid-cols-[1fr_220px_1fr] gap-5 items-stretch mb-12">
           {/* Left */}
           <div className="flex flex-col gap-4">
             {topicsLeft.map((t) => (
@@ -67,8 +78,8 @@ export default function HelpAreas() {
             ))}
           </div>
 
-          {/* Center image */}
-          <div className="aspect-[2/3] bg-[#D4C4B8] rounded-2xl overflow-hidden shadow-sm">
+          {/* Center image — estica para a altura total dos cards ao lado */}
+          <div className="bg-[#D4C4B8] rounded-2xl overflow-hidden shadow-sm h-full">
             <img
               src="/images/helpareas.jpg"
               alt="Ana Moreira"
@@ -84,7 +95,7 @@ export default function HelpAreas() {
           </div>
         </div>
 
-        {/* Mobile: single column grid */}
+        {/* Mobile: coluna única */}
         <div className="md:hidden grid grid-cols-1 gap-4 mb-12">
           {[...topicsLeft, ...topicsRight].map((t) => (
             <TopicCard key={t.title} {...t} />
