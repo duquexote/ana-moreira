@@ -3,11 +3,11 @@ import { useState } from 'react'
 const faqs = [
   {
     q: 'Como funcionam as sessões online?',
-    a: 'As sessões acontecem por videochamada (Google Meet ou Zoom), com duração de 50 minutos. Você só precisa de um lugar tranquilo e conexão com internet — de qualquer cidade do Brasil.',
+    a: 'As sessões acontecem por videochamada (Google Meet ou Zoom), com duração de 50 minutos. Você só precisa de um lugar tranquilo e conexão com internet de qualquer cidade do Brasil.',
   },
   {
     q: 'Com qual frequência nos encontramos?',
-    a: 'O formato mais indicado é semanal — o que garante consistência e avanço real no processo terapêutico.',
+    a: 'O formato mais indicado é semanal o que garante consistência e avanço real no processo terapêutico.',
   },
   {
     q: 'Você atende pessoas de fora de São Paulo?',
@@ -15,11 +15,11 @@ const faqs = [
   },
   {
     q: 'A terapia online é tão eficaz quanto a presencial?',
-    a: 'Sim. Estudos mostram que a psicoterapia online tem eficácia equivalente à presencial para a maioria dos casos — e ainda oferece mais flexibilidade para encaixar na sua rotina.',
+    a: 'Sim. Estudos mostram que a psicoterapia online tem eficácia equivalente à presencial para a maioria dos casos e ainda oferece mais flexibilidade para encaixar na sua rotina.',
   },
   {
     q: 'Como sei se a terapia é pra mim?',
-    a: 'Se você sente que algo não está bem — mesmo que não saiba exatamente o quê — isso já é motivo suficiente para começar. A terapia não é só para crises.',
+    a: 'Se você sente que algo não está bem mesmo que não saiba exatamente o quê isso já é motivo suficiente para começar. A terapia não é só para crises.',
   },
   {
     q: 'Você atende crianças ou casais?',

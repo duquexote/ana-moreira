@@ -12,12 +12,11 @@ export default function CTABanner() {
             </h2>
             <p className="text-white/80 text-sm leading-relaxed mb-3">
               Muitas pessoas esperam chegar ao limite para buscar apoio. Mas a
-              psicoterapia funciona melhor quando você começa antes disso —
-              quando ainda há energia, clareza e abertura para trabalhar.
+              psicoterapia funciona melhor quando você começa antes disso quando ainda há energia, clareza e abertura para trabalhar.
             </p>
             <p className="text-white/80 text-sm leading-relaxed mb-8">
               Se você chegou até aqui, provavelmente já sabe que algo precisa
-              mudar. Dê o primeiro passo — de onde você estiver.
+              mudar. Dê o primeiro passo de onde você estiver.
             </p>
             <a
               href={WHATSAPP_URL}

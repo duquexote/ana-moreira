@@ -12,7 +12,7 @@ const methods = [
     Icon: Compass,
     title: 'Terapia de Aceitação e Compromisso (ACT)',
     description:
-      'A ACT te ensina a se relacionar de outra forma com pensamentos e emoções difíceis — sem lutar contra eles, mas agindo de acordo com o que realmente importa pra você.',
+      'A ACT te ensina a se relacionar de outra forma com pensamentos e emoções difíceis, sem lutar contra eles, mas agindo de acordo com o que realmente importa pra você.',
   },
 ]
 

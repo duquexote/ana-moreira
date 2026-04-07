@@ -5,7 +5,7 @@ const steps = [
     number: '1',
     title: 'Entre em contato',
     description:
-      'Me envie uma mensagem pelo WhatsApp ou preencha o formulário. Sem compromisso — só uma conversa inicial para entender o que você está passando.',
+      'Me envie uma mensagem pelo WhatsApp ou preencha o formulário. Sem compromisso, só uma conversa inicial para entender o que você está passando.',
   },
   {
     number: '2',
@@ -17,7 +17,7 @@ const steps = [
     number: '3',
     title: 'Construção do processo terapêutico',
     description:
-      'A partir do segundo encontro, trabalhamos de forma estruturada — objetivos claros, técnicas adaptadas a você e sessões semanais por videochamada, de onde você estiver no Brasil.',
+      'A partir do segundo encontro, trabalhamos de forma estruturada, com objetivos claros, técnicas adaptadas a você e sessões semanais por videochamada, de onde você estiver no Brasil.',
   },
 ]
 

@@ -6,13 +6,13 @@ const topicsLeft = [
     Icon: Wind,
     title: 'Ansiedade',
     description:
-      'Quando a preocupação não para e seu corpo vive em alerta — mesmo sem um motivo aparente. Atendo online para São Paulo e todo o Brasil.',
+      'Quando a preocupação não para e seu corpo vive em alerta mesmo sem um motivo aparente. Atendo online para São Paulo e todo o Brasil.',
   },
   {
     Icon: CloudRain,
     title: 'Depressão',
     description:
-      'Aquela sensação de peso, vazio ou de que nada vai mudar. Não é fraqueza — é algo que tem tratamento com apoio especializado.',
+      'Aquela sensação de peso, vazio ou de que nada vai mudar. Não é fraqueza, é algo que tem tratamento com apoio especializado.',
   },
   {
     Icon: Sparkles,
