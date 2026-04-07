@@ -22,18 +22,14 @@ export default function About() {
             Olá, sou Ana,<br />psicóloga clínica
           </h2>
           <p className="text-base text-[#4A4A4A] leading-relaxed mb-5">
-            Baseada em São Paulo, com atendimento 100% online para pessoas em
-            todo o Brasil. Acredito que cada pessoa carrega uma história única —
-            e que o papel da terapia é criar um espaço de acolhimento genuíno
-            para que você possa se entender melhor e construir a vida que quer
-            viver.
+            Baseada em São Paulo, realizo atendimentos 100% online para todo o Brasil. Acredito que, muitas vezes, a gente aprende a lidar com a vida se cobrando demais, se comparando, tentando dar conta de tudo  e vai se afastando de si no meio disso.
+A terapia entra como um espaço pra desacelerar, se escutar de verdade e começar a entender o que está por trás do que você sente.
+          </p>
+          <p className="text-base text-[#4A4A4A] leading-relaxed mb-5">
+            Trabalho com a Terapia Cognitivo-Comportamental (TCC), te ajudando a compreender seus pensamentos, emoções e padrões,não de forma rígida, mas com mais consciência, leveza e possibilidade de mudança.
           </p>
           <p className="text-base text-[#4A4A4A] leading-relaxed">
-            Sou especialista em Terapia Cognitivo-Comportamental (TCC) e Terapia
-            de Aceitação e Compromisso (ACT) — duas das abordagens com maior
-            comprovação científica na psicologia atual. Atualmente curso
-            pós-graduação em Neuropsicologia pelo Hospital Israelita Albert
-            Einstein, aprofundando ainda mais minha prática clínica.
+            Atualmente, curso pós-graduação em Neuropsicologia pelo Hospital Israelita Albert Einstein, aprofundando meu olhar clínico para oferecer um cuidado cada vez mais sensível, ético e alinhado com o que você precisa.
           </p>
         </div>
       </div>

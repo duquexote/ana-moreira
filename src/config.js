@@ -6,7 +6,7 @@
 export const WHATSAPP_URL = 'https://wa.me/5511999999999'
 
 // CRP da psicóloga (ex: "CRP 06/123456")
-export const CRP = 'CRP XX/XXXXX'
+export const CRP = 'CRP 06/229203'
 
 // Cidade de atendimento
 export const CITY = 'São Paulo – SP'
