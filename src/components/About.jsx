@@ -22,8 +22,7 @@ export default function About() {
             Olá, sou Ana,<br />psicóloga clínica
           </h2>
           <p className="text-base text-[#4A4A4A] leading-relaxed mb-5">
-            Baseada em São Paulo, realizo atendimentos 100% online para todo o Brasil. Acredito que, muitas vezes, a gente aprende a lidar com a vida se cobrando demais, se comparando, tentando dar conta de tudo  e vai se afastando de si no meio disso.
-A terapia entra como um espaço pra desacelerar, se escutar de verdade e começar a entender o que está por trás do que você sente.
+            Baseada em São Paulo, realizo atendimentos 100% online para todo o Brasil. Acredito que, muitas vezes, a gente aprende a lidar com a vida se cobrando demais, se comparando, tentando dar conta de tudo, e sem perceber, acabamos nos afastando de nós mesmos.
           </p>
           <p className="text-base text-[#4A4A4A] leading-relaxed mb-5">
             Trabalho com a Terapia Cognitivo-Comportamental (TCC), te ajudando a compreender seus pensamentos, emoções e padrões,não de forma rígida, mas com mais consciência, leveza e possibilidade de mudança.

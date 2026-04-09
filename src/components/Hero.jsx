@@ -7,15 +7,13 @@ export default function Hero() {
         {/* Text */}
         <div>
           <p className="text-sm text-[#6B3B1F] font-medium mb-5 tracking-wide">
-            Ana Moreira • Psicóloga Clínica Online em São Paulo
+            Ana Luisa Moreira • Psicóloga Clínica Online em São Paulo
           </p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-[3.2rem] font-bold text-[#1a1a1a] leading-tight mb-6">
             Um espaço seguro para você se entender, se fortalecer e lidar melhor com o que sente.
           </h1>
           <p className="text-base text-[#4A4A4A] leading-relaxed mb-8 max-w-md">
-            Psicoterapia online individual com atendimento para São Paulo e todo
-            o Brasil. Trabalho com TCC e ACT, abordagens baseadas em evidências
-            para que você avance de verdade, sem julgamentos.
+            Psicoterapia online individual com atendimento para São Paulo e todo o Brasil. Trabalho com TCC, abordagem baseada em evidências, para que você avance de verdade, sem julgamentos
           </p>
           <a
             href={WHATSAPP_URL}

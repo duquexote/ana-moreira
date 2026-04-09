@@ -10,9 +10,9 @@ const methods = [
   },
   {
     Icon: Compass,
-    title: 'Terapia de Aceitação e Compromisso (ACT)',
+    title: 'Como a TCC funciona na prática',
     description:
-      'A ACT te ensina a se relacionar de outra forma com pensamentos e emoções difíceis, sem lutar contra eles, mas agindo de acordo com o que realmente importa pra você.',
+      'A partir de técnicas estruturadas, trabalhamos juntas para identificar pensamentos automáticos negativos, questionar crenças limitantes e desenvolver respostas mais saudáveis às situações do dia a dia.',
   },
 ]
 
@@ -29,8 +29,7 @@ export default function Methods() {
             Técnicas que funcionam. Aplicadas com cuidado. Personalizadas para você.
           </h2>
           <p className="text-base text-[#4A4A4A] max-w-xl mx-auto">
-            Trabalho com duas abordagens reconhecidas pela ciência. Cada uma é
-            escolhida e adaptada de acordo com o que você precisa.
+            Trabalho com a TCC, abordagem reconhecida pela ciência. Cada processo é pensado e adaptado de acordo com o que você precisa.
           </p>
         </div>
 
