@@ -20,15 +20,14 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-[#F5EFE6]/95 backdrop-blur-sm shadow-sm' : 'bg-[#F5EFE6]'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-[#F5EFE6]/95 backdrop-blur-sm shadow-sm' : 'bg-[#F5EFE6]'
+        }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex flex-col">
           <span className="font-serif text-xl font-semibold text-[#1a1a1a] leading-tight">
-            Ana Moreira
+            Ana Luisa Moreira
           </span>
           <span className="text-xs text-[#6B3B1F] font-medium tracking-wide">
             Psicóloga Clínica
@@ -63,28 +62,24 @@ export default function Header() {
           aria-label="Abrir menu"
         >
           <span
-            className={`block w-6 h-0.5 bg-[#1a1a1a] transition-all duration-300 origin-center ${
-              menuOpen ? 'rotate-45 translate-y-2' : ''
-            }`}
+            className={`block w-6 h-0.5 bg-[#1a1a1a] transition-all duration-300 origin-center ${menuOpen ? 'rotate-45 translate-y-2' : ''
+              }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-[#1a1a1a] transition-all duration-300 ${
-              menuOpen ? 'opacity-0' : ''
-            }`}
+            className={`block w-6 h-0.5 bg-[#1a1a1a] transition-all duration-300 ${menuOpen ? 'opacity-0' : ''
+              }`}
           />
           <span
-            className={`block w-6 h-0.5 bg-[#1a1a1a] transition-all duration-300 origin-center ${
-              menuOpen ? '-rotate-45 -translate-y-2' : ''
-            }`}
+            className={`block w-6 h-0.5 bg-[#1a1a1a] transition-all duration-300 origin-center ${menuOpen ? '-rotate-45 -translate-y-2' : ''
+              }`}
           />
         </button>
       </div>
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden overflow-hidden transition-all duration-300 ${
-          menuOpen ? 'max-h-80' : 'max-h-0'
-        }`}
+        className={`md:hidden overflow-hidden transition-all duration-300 ${menuOpen ? 'max-h-80' : 'max-h-0'
+          }`}
       >
         <div className="bg-[#F5EFE6] border-t border-[#E8DDD3] px-6 py-5 flex flex-col gap-4">
           {navLinks.map((link) => (

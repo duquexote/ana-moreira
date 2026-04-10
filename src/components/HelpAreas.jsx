@@ -65,7 +65,7 @@ export default function HelpAreas() {
             Posso te ajudar com
           </p>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#1a1a1a] leading-tight max-w-2xl mx-auto">
-            Você não precisa estar em crise para começar. Só precisa querer algo diferente.
+            Você pode se escolher antes de chegar ao seu limite.
           </h2>
         </div>
 

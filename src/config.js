@@ -3,7 +3,7 @@
 // Altere o número do WhatsApp abaixo com o DDD + número:
 // Exemplo: 5511987654321 (55 = Brasil, 11 = DDD, + número)
 // ============================================================
-export const WHATSAPP_URL = 'https://wa.me/5511999999999'
+export const WHATSAPP_URL = 'https://wa.me/5511914952962'
 
 // CRP da psicóloga (ex: "CRP 06/123456")
 export const CRP = 'CRP 06/229203'

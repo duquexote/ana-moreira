@@ -19,7 +19,7 @@ export default function About() {
             Sobre mim
           </p>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#1a1a1a] leading-tight mb-6">
-            Olá, sou Ana,<br />psicóloga clínica
+            Olá, sou Ana Luisa,<br />psicóloga clínica
           </h2>
           <p className="text-base text-[#4A4A4A] leading-relaxed mb-5">
             Baseada em São Paulo, realizo atendimentos 100% online para todo o Brasil. Acredito que, muitas vezes, a gente aprende a lidar com a vida se cobrando demais, se comparando, tentando dar conta de tudo, e sem perceber, acabamos nos afastando de nós mesmos.
